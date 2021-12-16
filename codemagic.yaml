@@ -1,8 +1,8 @@
 workflows:
-  environment:
-    groups:
-      - tokens
   build:
+    environment:
+      groups:
+        - tokens
     scripts:
       - name: install packates
         script: yarn install
