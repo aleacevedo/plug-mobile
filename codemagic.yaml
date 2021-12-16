@@ -4,6 +4,8 @@ workflows:
       groups:
         - tokens
     scripts:
+      - name: npm login
+      - script: npm login
       - name: install packates
         script: yarn install
       - name: build ios
