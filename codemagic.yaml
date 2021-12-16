@@ -1,4 +1,7 @@
 workflows:
+  environment:
+    groups:
+      - tokens
   build:
     scripts:
       - name: install packates
